@@ -22,7 +22,7 @@ h1{
     overflow: hidden;
 }
 div{
-    background-image: url('./Assets/Moon.gif');
+    background-image: url('Assets/Moon.gif');
     background-repeat: no-repeat;
     margin: 1.5%;
     cursor: pointer;
