@@ -3,8 +3,8 @@ let allDivs = document.getElementsByTagName("div");
 
 let imgArray = ['assets/1.gif', 'assets/2.gif', 'assets/3.gif', 'assets/4.gif', 'assets/5.gif', 'assets/6.gif','assets/1.gif', 'assets/2.gif', 'assets/3.gif', 'assets/4.gif', 'assets/5.gif', 'assets/6.gif'];
 
-let rightAudio= new Audio('../Assets/right.wav');
-let wrongAudio= new Audio('../Assets/wrong.wav');
+let rightAudio= new Audio('Assets/right.wav');
+let wrongAudio= new Audio('Assets/wrong.wav');
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
