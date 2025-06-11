@@ -32,7 +32,9 @@ for (let i = 0; i < allDivs.length; i++) {
             if (arr.length == 0) {
                 arr[0] = this;
             } else if (arr.length == 1) {
-                arr[1] = this;
+                if (this !== arr[0]) {
+                    arr[1] = this;
+                }
             }
             if (arr.length == 2) {
                 flg = false;
