@@ -1,10 +1,10 @@
 let main = document.getElementById("main");
 let allDivs = document.getElementsByTagName("div");
 
-let imgArray = ['./assets/1.gif', '../assets/2.gif', '../assets/3.gif', '../assets/4.gif', '../assets/5.gif', '../assets/6.gif','./assets/1.gif', 'assets/2.gif', 'assets/3.gif', 'assets/4.gif', 'assets/5.gif', 'assets/6.gif'];
+let imgArray = ['Assets/1.gif', 'Assets/2.gif', 'Assets/3.gif', 'Assets/4.gif', 'Assets/5.gif', 'Assets/6.gif','Assets/1.gif', 'Assets/2.gif', 'Assets/3.gif', 'Assets/4.gif', 'Assets/5.gif', 'Assets/6.gif'];
 
-let rightAudio= new Audio('../Assets/right.wav');
-let wrongAudio= new Audio('../Assets/wrong.wav');
+let rightAudio= new Audio('Assets/right.wav');
+let wrongAudio= new Audio('Assets/wrong.wav');
 function shuffle(array) {
     for (let i = array.length - 1; i > 0; i--) {
         let j = Math.floor(Math.random() * (i + 1));
